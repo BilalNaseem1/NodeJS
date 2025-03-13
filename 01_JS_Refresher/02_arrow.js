@@ -1,7 +1,7 @@
 // normal functions
 
 function sum(a, b) {
-    return a +b;
+    return a + b;
 }
 
 function isPositive(num) {
@@ -10,7 +10,7 @@ function isPositive(num) {
     } else {
         return false;
     }
-}   
+}
 
 function randomNumber() {
     return Math.random();
@@ -24,8 +24,12 @@ console.log(randomNumber());
 // Arrow functions
 
 // remove function keyword + name and assign it to a variable
-let sum2 =  (a, b) => {
-    return a +b
+
+// syntax
+// let variableName = (<params>) => {}
+
+let sum2 = (a, b) => {
+    return a + b
 }
 
 
